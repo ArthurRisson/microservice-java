@@ -11,7 +11,7 @@ import java.util.Map;
 @Service
 public class BCBService {
 
-    private static final String FIXED_BUSINESS_DATE = "2026-05-20";
+    private static final String FIXED_BUSINESS_DATE = "05-20-2026";
     private final BCBClient bcbClient;
 
     public BCBService(BCBClient bcbClient) {
