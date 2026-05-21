@@ -1,4 +1,8 @@
 package br.edu.atitus.productservice.clients;
 
-public class CurrencyResponse {
+public record CurrencyResponse(
+        String sourceCurrency,
+        String targetCurrency,
+        Double conversionRate,
+        String environment) {
 }
